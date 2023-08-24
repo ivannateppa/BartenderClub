@@ -1,12 +1,17 @@
 /********** Template CSS **********/
 :root {
-    --primary: #e1930b;
+    --primary: #FECC42;
     --secondary: #545454;
-    --light: #FDF5EB;
-    --dark: #1E1916;
+    --light: #ff0000;
+    --dark: #000000;
 }
 
-h4,
+h3{
+    color: #ff0000;
+}
+h4{
+    color: #ff0000;
+},
 h5,
 h6,
 .h4,
@@ -97,13 +102,13 @@ h6,
 
 .navbar .navbar-nav .nav-link {
     padding: 35px 15px;
-    color:black;
+    color: var(--light);
     outline: none;
 }
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: red;
+    color: var(--primary);
 }
 
 .navbar.fixed-top {
@@ -197,7 +202,7 @@ h6,
 .header-carousel .owl-nav .owl-next {
     position: relative;
     font-size: 40px;
-    color: red;
+    color: var(--primary);
     transition: .5s;
     z-index: 1;
 }
