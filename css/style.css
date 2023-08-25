@@ -6,6 +6,10 @@
     --dark: #000000;
 }
 
+.text-light {
+    color: #ff0000 !important;
+}
+
 h1{
     color: #ff0000;
 }
